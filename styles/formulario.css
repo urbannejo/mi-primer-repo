@@ -1,0 +1,77 @@
+#formulario .contenedor {
+    background-image: url(/img/245f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#formulario .contenedor form .form-header .form-titulo{
+    font-weight: normal;
+    color: aquamarine;
+
+}
+
+#formulario .contenedor form {
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+#formulario .contenedor form .form-label {
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    position: relative;
+}
+
+#formulario .contenedor form .form-header h2 {
+    font-weight: normal;
+    font-size: 32px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+#formulario .contenedor form .form-input, .form-textarea {
+    background: rgb(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff815b;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: Roboto;
+
+}
+
+#formulario .contenedor form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+#formulario .contenedor form .btn-submit {
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+#formulario .contenedor form .btn-submit:hover {
+    background: #F29718;
+}

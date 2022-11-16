@@ -1,0 +1,129 @@
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: #24252a;
+    display: flex;
+    justify-content: center;
+}
+
+nav .contenedor {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /*transition: 0.5s;*/
+    margin: 0;
+}
+
+nav .contenedor .navbar {
+    width: 100%;
+    margin: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top:0;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #24252a;
+}
+
+nav .contenedor .navbar img {
+    width: 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+nav .contenedor .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+nav .contenedor .navbar ul li a, .contacto {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav .contenedor .navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: rgba(0, 136, 169, 1);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+nav .contenedor .navbar ul li a:hover {
+    color: rgba(0, 136, 169, 1);
+}
+
+nav .contenedor .navbar ul li:hover::before {
+    width: 100%;
+}
+
+nav .contenedor .contacto {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+  
+nav .contenedor .contacto:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+
+
+/*Sub-menu*/
+
+nav .contenedor .navbar ul li:hover .menu-vertical {
+    display: block;
+}
+
+nav .contenedor .navbar ul .menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #24252a;
+}
+
+nav .contenedor .navbar .menu-vertical li{
+	/*display: block;*/
+    width: 180px;
+    height: 40px;
+	color: white;
+	text-decoration: none;
+    padding-top: 15px;
+    padding-left: 0px;
+	/*padding: 15px 15px 15px 20px;*/
+    text-align: start;
+    line-height: 1;
+    background-color: #24252a;
+}
+
+nav .contenedor .navbar ul .menu-vertical li:hover{
+	background-color: initial;
+    opacity: 1;
+}
+
+nav .contenedor .navbar .menu-vertical li::before {
+    background: initial;
+}
+
+
+
+
+
+

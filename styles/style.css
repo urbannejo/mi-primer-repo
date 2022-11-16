@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url(menu.css);
+@import url(bannerprincipal.css);
+
+@import url(footer.css);
+@import url(elegir.css);
+@import url(seccionServicios.css);
+
+@import url(reset.css);
+@import url(opiniones.css);
+@import url(formulario.css);
+
+
+:root{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gray:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1:#1a1b1f;
+    --black2:#30553b;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+}
